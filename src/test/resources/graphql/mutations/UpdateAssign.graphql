@@ -1,0 +1,11 @@
+mutation updateUserProgramEndDate(
+    $id: String!,
+    $endDate: DateTime!
+) {
+    updateUserProgramEndDate(
+        id: $id,
+        endDate: $endDate
+    ) {
+        id
+    }
+}

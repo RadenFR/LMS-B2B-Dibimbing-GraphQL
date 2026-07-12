@@ -1,0 +1,9 @@
+mutation createContent(
+    $input: ContentInput!
+) {
+    createContent(
+        input: $input
+    ) {
+        id
+    }
+}
